@@ -3,3 +3,83 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: flex-start;
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#item1 {
+    display: inline-flex;
+    margin-right: 70px;
+    flex-direction: row;
+}
+#item2 {
+    display: inline-flex;
+    margin-right: 70px;
+    flex-direction: row;
+}
+#item3 {
+    display: inline-flex;
+    margin-right: 70px;
+    flex-direction: row;
+}
+
+form {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+form label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+#label1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+#label2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.five {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#text1 {
+    flex-basis: 360px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+#text2 {
+    flex-basis: 360px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+#text3 {
+    flex-basis: 360px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
